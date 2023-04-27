@@ -5,7 +5,7 @@ git pull
 timeout 5 > NUL
 
 ::kopiowanie swiata do folderu terrarii
-echo f|xcopy "C:\Users\Maksymilian\Documents\JD\terraria\wrld\kula_zjeb.wld" "C:\Users\Maksymilian\Documents\My Games\Terraria\Worlds\kula_zjeb.wld" /Y
+echo f|xcopy "wrld\kula_zjeb.wld" "..\..\My Games\Terraria\Worlds\kula_zjeb.wld" /Y
 
 ::wlaczanie gry
 start steam://rungameid/105600
